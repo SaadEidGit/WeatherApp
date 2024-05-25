@@ -4,6 +4,8 @@
 
 This project is a Weather App built using JavaScript and ReactJS. It leverages React hooks for managing state and effects, async/await for handling asynchronous operations, AXIOS for making HTTP requests, and CSS modules for styling.
 
+![preview](https://github.com/SaadEidGit/WeatherApp/assets/113065070/6b02fe9e-b927-45ec-90a1-3d0f7e999cff)
+
 ## Features
 
 - Fetch and display current weather information based on user location
@@ -32,3 +34,21 @@ This project is a Weather App built using JavaScript and ReactJS. It leverages R
 
 3. **Get an API key:**
   Sign up for an API key from a weather service provider like OpenWeatherMap.
+
+4. **Create a .env file:**
+   In the root directory of the project, create a .env file and add your API key:
+   ```bash
+   REACT_APP_WEATHER_API_KEY=your_api_key_here
+
+## Usage
+1. **Start the development server:**
+   ```bash
+   npm start
+
+This will run the app in development mode. Open http://localhost:3000 to view it in the browser.
+
+2. **Build for production:**
+   ```bash
+   npm run build
+
+This will create an optimized build of the app in the build directory.
